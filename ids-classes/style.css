@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    background-color: white;
+}
+
+.topo {
+    width: 100%;
+    height: 100px;
+    background-color: red;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 20px;
+
+    border-bottom: 25px solid white;
+}
+
+.topo img {
+    width: 200px;
+}
+
+.topo a {
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
+
+.topo a:hover {
+    text-decoration: underline;
+}
+
+.secao {
+    width: 400px;
+    margin-left: 30px;
+    margin-bottom: 40px;
+
+    padding: 30px;
+
+    box-sizing: border-box;
+
+    text-align: center;
+}
+
+.vermelho {
+    background-color: red;
+    color: white;
+}
+
+.cinza {
+    background-color: gray;
+    color: black;
+}
+
+.produto {
+    width: 100%;
+    text-align: center;
+}
+
+.produto img {
+    width: 300px;
+}
+
+.produto p {
+    width: 100%;
+}
+
+.banner {
+    width: 100%;
+    heigth: 100%;
+
+    margin-left: 30px;
+    margin-bottom: 40px;
+
+  
+
+    background-color: gray;
+
+    text-align: center;
+
+    box-sizing: border-box;
+}
+
+.banner img {
+    width: 350px;
+}
